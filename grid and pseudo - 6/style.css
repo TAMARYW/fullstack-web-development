@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f6f8;
+    direction: rtl;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.post h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+#post1 p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#post2 p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+#post3 p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.post p::first-letter {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2980b9;
+    float: right;
+    margin-left: 5px;
+    line-height: 1;
+}
+
+.post p::first-line {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card-controls input[type="checkbox"] {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.card-controls label {
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    align-self: flex-start;
+}
+
+.delete-btn:hover {
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+#post1 .dark-mode-checkbox:checked ~ * ,
+#post1:has(.dark-mode-checkbox:checked) {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #444;
+}
+
+#post1:has(.dark-mode-checkbox:checked) h2,
+#post1:has(.dark-mode-checkbox:checked) p,
+#post1:has(.dark-mode-checkbox:checked) label {
+    color: #f1f1f1;
+}
+
+#post1:has(.dark-mode-checkbox:checked) p::first-letter {
+    color: #3498db;
+}
+
+#post1:has(.dark-mode-checkbox:checked) p::first-line {
+    color: #5dade2;
+}
+
+#post2:has(.dark-mode-checkbox:checked) {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #444;
+}
+
+#post2:has(.dark-mode-checkbox:checked) h2,
+#post2:has(.dark-mode-checkbox:checked) p,
+#post2:has(.dark-mode-checkbox:checked) label {
+    color: #f1f1f1;
+}
+
+#post2:has(.dark-mode-checkbox:checked) p::first-letter {
+    color: #3498db;
+}
+
+#post2:has(.dark-mode-checkbox:checked) p::first-line {
+    color: #5dade2;
+}
+
+#post3:has(.dark-mode-checkbox:checked) {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #444;
+}
+
+#post3:has(.dark-mode-checkbox:checked) h2,
+#post3:has(.dark-mode-checkbox:checked) p,
+#post3:has(.dark-mode-checkbox:checked) label {
+    color: #f1f1f1;
+}
+
+#post3:has(.dark-mode-checkbox:checked) p::first-letter {
+    color: #3498db;
+}
+
+#post3:has(.dark-mode-checkbox:checked) p::first-line {
+    color: #5dade2;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>Async Exercise</title>
+    <style>
+        #box {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box">Initial Div</div>
+
+    <script>
+        const box = document.getElementById('box');
+
+        setTimeout(() => {
+            box.style.backgroundColor = 'red'; 
+
+            setTimeout(() => {
+                box.style.fontSize = '50px'; 
+
+                setTimeout(() => {
+                    box.style.backgroundColor = 'purple'; 
+
+                    setTimeout(() => {
+                        box.innerText = 'callback hell'; 
+                    }, 5000);
+
+                }, 5000);
+
+            }, 5000);
+
+        }, 5000);
+    </script>
+
+</body>
+</html>

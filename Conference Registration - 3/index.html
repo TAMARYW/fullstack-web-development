@@ -1,0 +1,139 @@
+```html
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration - 3</title>
+</head>
+
+<body id="main">
+
+    <form>
+
+        <fieldset>
+            <legend>פרטים אישיים</legend>
+
+            <label for="Fname">שם פרטי</label>
+            <input type="text" id="Fname" name="Fname" required minlength="2" aria-describedby="FnameError">
+            <span id="FnameError">יש להזין לפחות 2 תווים</span>
+
+            <label for="Lname">שם משפחה</label>
+            <input type="text" id="Lname" name="Lname" required minlength="2" aria-describedby="LnameError">
+            <span id="LnameError">יש להזין לפחות 2 תווים</span>
+
+            <label for="tel">טלפון</label>
+            <input type="tel" id="tel" name="tel" pattern="05[0-9]{8}" required aria-describedby="telError">
+            <span id="telError">יש להזין מספר טלפון תקין</span>
+
+            <label for="email">אמייל</label>
+            <input type="email" id="email" name="email" required aria-describedby="emailError">
+            <span id="emailError">יש להזין כתובת אימייל תקינה</span>
+
+            <label for="age">גיל</label>
+            <input type="number" id="age" name="age" required aria-describedby="ageError">
+            <span id="ageError">יש להזין גיל</span>
+
+            <p>מין:</p>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">זכר</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">נקבה</label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>כרטיס וסדנאות</legend>
+
+            <label for="ticket">סוג כרטיס</label>
+
+            <select name="ticket" id="ticket" required aria-describedby="ticketError">
+
+                <option value="">בחר סוג כרטיס</option>
+                <option value="standard">Standard</option>
+                <option value="vip">VIP</option>
+                <option value="student">Student</option>
+
+            </select>
+
+            <span id="ticketError">יש לבחור סוג כרטיס</span>
+
+            <label>סדנאות:</label>
+
+            <input type="checkbox" id="web" name="workshops" value="web">
+            <label for="web">Web Performance</label>
+
+            <input type="checkbox" id="accessibility" name="workshops" value="accessibility">
+            <label for="accessibility">Accessibility</label>
+
+            <input type="checkbox" id="testing" name="workshops" value="testing">
+            <label for="testing">Testing</label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>תזונה</legend>
+
+            <input type="radio" id="none" name="diet" value="none">
+            <label for="none">None</label>
+
+            <input type="radio" id="vegan" name="diet" value="vegan">
+            <label for="vegan">Vegan</label>
+
+            <input type="radio" id="kosher" name="diet" value="kosher">
+            <label for="kosher">Kosher</label>
+
+            <input type="radio" id="halal" name="diet" value="halal">
+            <label for="halal">Halal</label>
+
+            <input type="radio" id="other" name="diet" value="other">
+            <label for="other">Other</label>
+
+            <label for="otherDetails">פירוט:</label>
+            <input type="text" id="otherDetails" name="otherDetails" required aria-describedby="otherDetailsError">
+            <span id="otherDetailsError">יש להזין פירוט</span>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>פרטי תשלום</legend>
+
+            <label for="cardNumber">מספר כרטיס</label>
+            <input type="text" id="cardNumber" name="cardNumber" pattern="[0-9 ]{13-19}" required aria-describedby="cardNumberError">
+            <span id="cardNumberError">יש להזין מספר כרטיס תקין</span>
+
+            <label for="expiry">תאריך תפוגה</label>
+            <input type="month" id="expiry" name="expiry" min="2026-10" required aria-describedby="expiryError">
+            <span id="expiryError">יש לבחור תאריך תפוגה תקין</span>
+
+            <label for="cvv">CVV</label>
+            <input type="password" name="cvv" id="cvv" pattern="[0-9]{3,4}" required aria-describedby="cvvError">
+            <span id="cvvError">יש להזין 3–4 ספרות</span>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>הסכמות</legend>
+
+            <input type="checkbox" id="terms" name="terms" required aria-describedby="termsError">
+            <label for="terms">אני מאשר.ת את תנאי השימוש</label>
+            <span id="termsError">יש לאשר את תנאי השימוש</span>
+
+            <label for="studentCard">תעודת סטודנט</label>
+            <input type="file" id="studentCard" name="studentCard" accept=".pdf,.jpg,.png" aria-describedby="studentCardError">
+            <span id="studentCardError">יש להעלות תעודת סטודנט</span>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

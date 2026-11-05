@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.magic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magic-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    background-color: #5eead4;
+    color: #0f172a;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    will-change: transform;
+    animation: fadeInScale 2s ease-out forwards,
+        slideHoriz 4s ease-in-out infinite alternate;
+    transition: transform 0.8s ease, background-color 0.8s ease;
+}
+
+.magic-card:hover {
+    transform: rotate(360deg);
+    background-color: #f97316;
+    color: #ffffff;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideHoriz {
+    from {
+        transform: translateX(-45px);
+    }
+
+    to {
+        transform: translateX(45px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .magic-card {
+        animation: none !important;
+        transition: none !important;
+        opacity: 1;
+        transform: none;
+    }
+}

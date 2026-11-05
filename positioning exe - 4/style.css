@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    direction: rtl;
+    padding: 20px;
+}
+
+.main-nav {
+    background-color: #2b2929;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.main-nav a {
+    display: inline;
+    color: #e6eaed;
+    text-decoration: underline;
+    width: 150px;
+    margin-left: 40px;
+}
+
+.main-nav a:hover {
+    color: #ff3366;
+}
+
+.header-section {
+    margin-bottom: 20px;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.title-wrapper h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-left: 1200px;
+
+}
+
+.more-link {
+    display: inline;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: none;
+    height: 2px;
+    background-color: #dddddd;
+    margin-top: 10px;
+}
+
+.flashes-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #ddd;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    /* עודכן: שונה לרוחב מלא (100%) בקו אחיד עם השאר */
+    margin-bottom: 20px;
+    /* עודכן: הותאם למבנה רוחב מלא ללא מרכוז מרכזי */
+    box-sizing: border-box;
+}
+
+.flash-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    padding: 0 15px;
+    border-left: 1px solid #dcdcdc;
+    white-space: normal;
+}
+
+.flash-time {
+    display: block;
+    background-color: #e31b23;
+    /* אדום חד */
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.flash-text {
+    font-size: 13px;
+    color: #222222;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.article-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 100%;
+    /* עודכן: שונה לרוחב מלא (100%) כמו שאר חלקי האתר */
+    box-sizing: border-box;
+    /* עודכן: נוסף כדי שהריפוח הפנימי לא יחרוג מקצוות המסך */
+    margin-bottom: 20px;
+    /* עודכן: שונה ממירכוז אוטומטי למרווח תחתון אחיד */
+}
+
+.article-image-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 850px;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.article-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 1px;
+}
+
+.article-content-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+}
+
+.category-badge {
+    margin-bottom: 15px;
+}
+
+.category-badge h3 {
+    display: inline-block;
+    background-color: #e31b23;
+    color: #ffffff;
+    font-size: 13px;
+    margin: 0;
+    padding: 4px 8px;
+}
+
+.headline-box {
+    margin-bottom: 20px;
+}
+
+.headline-box h1 {
+    display: inline;
+    background-color: #1c2b2d;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 2px 4px;
+    box-decoration-break: clone;
+}
+
+.article-text {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+}

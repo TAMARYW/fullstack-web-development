@@ -1,0 +1,88 @@
+body {
+  background-color: #f4f5f0;
+  color: #2b3027;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 50px 20px;
+}
+
+.home-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 8px;
+}
+
+.welcome-section h1 {
+  color: #4b5320;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.welcome-section p {
+  color: #556b2f;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.action-section {
+  margin-bottom: 35px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #556b2f;
+  color: #ffffff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #4b5320;
+}
+
+.admin-login-section {
+  border-top: 1px solid #dcdfd0;
+  padding-top: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.admin-login-section p {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 18px;
+}
+
+#adminPassword {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #708238;
+  border-radius: 4px;
+  margin: 0 auto 15px auto;
+  width: 160px;
+  display: block;
+  text-align: right;
+}
+
+.btn-secondary {
+  background-color: #3b4424;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-secondary:hover {
+  background-color: #2b3027;
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Easy Math",
+    "level": "easy",
+    "timeLimit": 15,
+    "hint": "Use your fingers to count!",
+    "taskDescription": "What is 5 + 3?",
+    "correctAnswer": "8"
+  },
+  {
+    "id": 2,
+    "name": "Mystery",
+    "level": "easy",
+    "timeLimit": 15,
+    "hint": "You usually hear it in a cave or a large empty room.",
+    "taskDescription": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I?",
+    "correctAnswer": "echo"
+  },
+  {
+    "id": 3,
+    "name": "The Dictionary",
+    "level": "easy",
+    "timeLimit": 15,
+    "hint": "Think about alphabetical order.",
+    "taskDescription": "Where does today come before yesterday?",
+    "correctAnswer": "dictionary"
+  },
+  {
+    "id": 4,
+    "name": "Tall & Short",
+    "level": "easy",
+    "timeLimit": 15,
+    "hint": "It melts as it burns.",
+    "taskDescription": "I'm tall when I'm young, and I'm short when I'm old. What am I?",
+    "correctAnswer": "candle"
+  },
+  {
+    "id": 5,
+    "name": "Full of Holes",
+    "level": "easy",
+    "timeLimit": 15,
+    "hint": "You use it to clean dishes or wash yourself.",
+    "taskDescription": "I am full of holes but I can still hold water. What am I?",
+    "correctAnswer": "sponge"
+  },
+  {
+    "id": 6,
+    "name": "The Dough Master",
+    "level": "medium",
+    "timeLimit": 15,
+    "hint": "This person makes fresh bread.",
+    "taskDescription": "I knead dough but I am not a massage therapist. I work with flour and heat. Who am I?",
+    "correctAnswer": "baker"
+  },
+  {
+    "id": 7,
+    "name": "The Pretender",
+    "level": "medium",
+    "timeLimit": 15,
+    "hint": "Hollywood is full of them.",
+    "taskDescription": "I make a living by pretending to be someone else. You watch me on a screen or a stage. Who am I?",
+    "correctAnswer": "actor"
+  },
+  {
+    "id": 8,
+    "name": "Sky Traveler",
+    "level": "medium",
+    "timeLimit": 15,
+    "hint": "They control airplanes.",
+    "taskDescription": "I fly through the sky but I have no wings of my own. I wear a uniform and sit in a cockpit. Who am I?",
+    "correctAnswer": "pilot"
+  },
+  {
+    "id": 9,
+    "name": "Iron Suit",
+    "level": "medium",
+    "timeLimit": 15,
+    "hint": "They fought with swords and shields.",
+    "taskDescription": "I wore heavy armor, rode a horse, and served a king in medieval times. Who am I?",
+    "correctAnswer": "knight"
+  },
+  {
+    "id": 10,
+    "name": "The Smile Fixer",
+    "level": "medium",
+    "timeLimit": 15,
+    "hint": "You visit them to check for cavities.",
+    "taskDescription": "I tell you to open your mouth wide. I look at your teeth all day. Who am I?",
+    "correctAnswer": "dentist"
+  },
+  {
+    "id": 11,
+    "name": "The Hairy Man",
+    "level": "hard",
+    "timeLimit": 15,
+    "hint": "He cuts other people's hair.",
+    "taskDescription": "A man shaves several times a day, yet he still has a full beard. Who is he?",
+    "correctAnswer": "barber"
+  },
+  {
+    "id": 12,
+    "name": "Family Ties",
+    "level": "hard",
+    "timeLimit": 15,
+    "hint": "Draw a family tree in your head.",
+    "taskDescription": "Brothers and sisters I have none, but this man's father is my father's son. Who is this man?",
+    "correctAnswer": "son"
+  },
+  {
+    "id": 13,
+    "name": "Shadow Worker",
+    "level": "hard",
+    "timeLimit": 15,
+    "hint": "James Bond is a famous fictional one.",
+    "taskDescription": "I have many names but only one true identity. I work in the shadows to gather secrets for my government. Who am I?",
+    "correctAnswer": "spy"
+  },
+  {
+    "id": 14,
+    "name": "The Ruler",
+    "level": "hard",
+    "timeLimit": 15,
+    "hint": "They work in a courtroom and hold a gavel.",
+    "taskDescription": "I sit on a bench but I am not in a park. I wear a long robe but I am not sleeping. I make rulings. Who am I?",
+    "correctAnswer": "judge"
+  },
+  {
+    "id": 15,
+    "name": "Two of a Kind",
+    "level": "hard",
+    "timeLimit": 15,
+    "hint": "They can be identical or fraternal.",
+    "taskDescription": "We are two siblings born on the same day, from the same mother, but we are not always identical. Who are we?",
+    "correctAnswer": "twins"
+  }
+]
