@@ -2,7 +2,7 @@ import express from 'express';
 
 const router = express.Router();
 
-router.get('./greet', (req, res) => {
+router.get('/', (req, res) => {
     res.json({ msg: "Hello from /greet!" });
 });
 
